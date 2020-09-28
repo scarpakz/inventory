@@ -1,0 +1,33 @@
+.loginFormContainer{
+    margin-top: 150px;
+}
+.inputGroup input{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+.inputGroup{
+    margin: 10px 0;
+}
+.autoAdjustFooter{
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(31, 29, 145, 0.5),
+    rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+.loginFormContainer h1{
+    color: #fff;
+}
+.loginFormContainer{
+    background-color: rgba(190, 59, 59, 0.418);
+    padding: 70px 15px;
+    border-radius: 5px;
+}
