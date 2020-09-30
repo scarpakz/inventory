@@ -5,11 +5,12 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Pages
-import Login from './pages/Login'
-
+import App from './App'
+// TODO #1 Create a Dashboard page
+// TODO #2 APPLY ROUTING
 ReactDOM.render(
   <React.StrictMode>
-    <Login/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

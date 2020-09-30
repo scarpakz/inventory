@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { 
-    faUser,
-    faKey
-} from '@fortawesome/free-solid-svg-icons'
 import { 
     Container, 
     Row, 
@@ -31,9 +27,11 @@ class Login extends Component {
                                         <input type="password" name="Password" placeholder="Password" required/>
                                     </div>
                                     <div className="inputGroup">
-                                        <Button variant="primary" size="lg" block>
-                                            Submit
-                                        </Button>
+                                        <Link to="/dashboard">
+                                            <Button variant="primary" size="lg" block>
+                                                Submit
+                                            </Button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,0 +1,15 @@
+.dashboardContainer .dashboardSignOut{
+    color: rgb(230, 49, 49);
+    font-weight: 600;
+    padding: 0 10px;
+}
+.dashboardContainer .dashboardProfileSettings{
+    color: #222;
+    border-right: solid 1px lightgray;
+}
+.dashboardContainer .dashboardProfileSettings:hover{
+    color: #444;
+}
+.dashboardSignOut:hover{
+    color: rgb(202, 37, 37);
+}
