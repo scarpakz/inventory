@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CustomTable from '../../components/table/CustomTable'
+import AddOrder from '../../components/addorder/AddOrder'
 import {
     Container,
 } from 'react-bootstrap'
@@ -9,7 +10,8 @@ class Homepage extends Component {
         return(
             <div>
                 <Container>
-                    <CustomTable/>
+                    <AddOrder />
+                    <CustomTable />
                 </Container>
             </div>
         )

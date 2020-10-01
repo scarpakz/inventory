@@ -1,0 +1,26 @@
+.addOrderContainer{
+    margin-top: 20px;
+    display: flex;
+}
+.addOrderBox{
+    width: 200px;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    background-color:#26b559;
+    color: #fff;
+    transition: .3s;
+}
+.addOrderBox:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgb(148, 148, 148);
+}
+.addOrderLink{
+    color: #26b559;
+}
+.addOrderLink:hover{
+    text-decoration: none;
+}
+.addOrderIconContainer a svg{
+    font-size: 78px;
+}
