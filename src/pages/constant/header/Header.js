@@ -16,7 +16,7 @@ class Header extends Component{
         return(
             <div>
                 <div className="dashboardContainer">
-                    <Navbar fixed="top" bg="light" variant="light">
+                    <Navbar static bg="light" variant="light">
                         <Navbar.Brand href="#home">Web App</Navbar.Brand>
                         <Nav className="mr-auto">
                             <Nav.Link href="#home">Home</Nav.Link>

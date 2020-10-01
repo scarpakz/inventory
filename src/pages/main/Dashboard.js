@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import './Dashboard.css'
 // Component Pages
-import Header from '../constant/Header'
+import Header from '../constant/header/Header'
+import Homepage from '../homepage/Homepage'
 // Bootstrap Components
 import { 
     Navbar, 
@@ -20,6 +21,7 @@ class Dashboard extends Component{
         return(
             <React.Fragment>
                 <Header />
+                <Homepage />
             </React.Fragment>
         )
     }
