@@ -1,0 +1,14 @@
+.footerContainer{
+    display: flex;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 100;
+    background-color: #f8f9fa;
+    color: #888;
+}
+
+.footerContent{
+    margin: 0 auto;
+}

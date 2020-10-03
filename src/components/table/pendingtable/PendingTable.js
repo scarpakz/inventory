@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './CustomTable.css'
+import './PendingTable.css'
 import {
     Table,
     Button
 } from 'react-bootstrap'
 
-class CustomTable extends Component {
+class PendingTable extends Component {
     render(){
         return(
             <div>
@@ -22,7 +22,7 @@ class CustomTable extends Component {
                             <th>Contact Number</th>
                             <th>Address</th>
                             <th>Order</th>
-                            <th>Comments</th>
+                            <th>Info</th>
                             <th>Action</th>
                         </thead>
                         <tbody>
@@ -33,7 +33,7 @@ class CustomTable extends Component {
                                 <td>09350964805</td>
                                 <td>Villa Mila Subdivision, Aplaya Jasaan</td>
                                 <td><Button variant="info">Detail</Button></td>
-                                <td><Button>Comments</Button></td>
+                                <td><Button>Notes</Button></td>
                                 <td><Button variant="danger">Cancel</Button></td>
                             </tr>
                             <tr>
@@ -43,7 +43,7 @@ class CustomTable extends Component {
                                 <td>09350964805</td>
                                 <td>Villa Mila Subdivision, Aplaya Jasaan</td>
                                 <td><Button variant="info">Detail</Button></td>
-                                <td><Button>Comments</Button></td>
+                                <td><Button>Notes</Button></td>
                                 <td><Button variant="danger">Cancel</Button></td>
                             </tr>
                         </tbody>
@@ -54,4 +54,4 @@ class CustomTable extends Component {
     }
 }
 
-export default CustomTable
+export default PendingTable

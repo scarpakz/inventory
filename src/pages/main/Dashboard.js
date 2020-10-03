@@ -5,6 +5,7 @@ import './Dashboard.css'
 // Component Pages
 import Header from '../constant/header/Header'
 import Homepage from '../homepage/Homepage'
+import Footer from '../constant/footer/Footer'
 // Bootstrap Components
 import { 
     Navbar, 
@@ -22,6 +23,7 @@ class Dashboard extends Component{
             <React.Fragment>
                 <Header />
                 <Homepage />
+                <Footer />
             </React.Fragment>
         )
     }

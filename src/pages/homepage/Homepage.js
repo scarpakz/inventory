@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import CustomTable from '../../components/table/CustomTable'
+import PendingTable from '../../components/table/pendingtable/PendingTable'
+import DeliveredTable from '../../components/table/deliveredtable/DeliveredTable'
 import AddOrder from '../../components/addorder/AddOrder'
 import {
     Container,
@@ -11,7 +12,8 @@ class Homepage extends Component {
             <div>
                 <Container>
                     <AddOrder />
-                    <CustomTable />
+                    <PendingTable />
+                    <DeliveredTable />
                 </Container>
             </div>
         )
