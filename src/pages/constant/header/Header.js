@@ -17,9 +17,9 @@ class Header extends Component{
             <div>
                 <div className="dashboardContainer">
                     <Navbar static bg="light" variant="light">
-                        <Navbar.Brand href="#home">Web App</Navbar.Brand>
+                        <Navbar.Brand href="/dashboard">Web App</Navbar.Brand>
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="/dashboard">Home</Nav.Link>
                             <Nav.Link href="#features">Reports</Nav.Link>
                             <Nav.Link href="#pricing">Delivery</Nav.Link>
                             {/* <NavDropdown title="User" id="collasible-nav-dropdown">
